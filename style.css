@@ -16,13 +16,14 @@ body {
     padding-top: 3em;
 }
 .fotos{
-    width: 15%;
+    width: 100%;
     opacity: 75%;
 }
 .fotos:hover{
     transform: scale(1.03);
     opacity: 100%;
     box-shadow: 0cm 0cm 0.5cm rgba(0, 0, 0, 0.308);
+    transition: 0.3s;
 }
 .cabecalho{
     display: flex;
@@ -38,18 +39,12 @@ body {
 .cabecalhomenuitem{
     height: 1%;
 }
-    
 
 .foto-overlay {
     position: relative;
     margin: 0px;
-    width: 15%; /* Ajuste o tamanho conforme necessário */
+    width: 15%;
     gap:0;
-}
-
-.fotos {
-    width: 100%;
-    height: auto;
 }
 
 .overlay {
@@ -63,10 +58,11 @@ body {
     padding: 0px;
     text-align: center;
     opacity: 0;
-    transition: opacity 0.1s;
+    transition: opacity 0.15s;
     font-family: powerpufffont;
 }
 
 .foto-overlay:hover .overlay {
     opacity: 1;
+    transform: scale(1.03);
 }
