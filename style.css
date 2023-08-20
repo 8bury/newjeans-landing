@@ -1,0 +1,44 @@
+@font-face {
+    font-family: powerpufffont;
+    src: url(assets/font.ttf);
+}
+
+body {
+    background: rgb(178,134,223);
+    background: linear-gradient(90deg, rgba(178,134,223,1) 31%, rgba(156,106,205,1) 57%, rgba(156,106,205,1) 82%);
+}
+
+.secaofotos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
+.fotos{
+    padding: 0px;
+    margin: 0px;
+    margin-block: 0px;
+    width: 15%;
+    opacity: 75%;
+}
+.fotos:hover{
+    transform: scale(1.03);
+    opacity: 100%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalhomenu{
+    display: flex;
+    gap:32px;
+}
+.cabecalhomenuitem{
+    color: rgb(0, 0, 0);
+    font-family: powerpufffont;
+    font-size: 120%;
+}
